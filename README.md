@@ -1,6 +1,6 @@
 # Linear Bits 🖇
 
-This simple project is a **Linear Block Coding system** implemented using MATLAB GUI.  
+This simple Application is a **Linear Block Coding system** implemented using MATLAB GUI.  
 It performs **encoding, decoding, and error detection/correction** for binary messages based on vector and matrix operations.
 
 ![GUI](Media/GUI.png)
