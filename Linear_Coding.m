@@ -462,14 +462,13 @@ if k >= n
     return;
 end
 
-if size(g,1) ~= k || size(g,2) ~= n
-    errordlg('G matrix must be k × n');
+if isempty(g) || isnan(k) || isnan(n)
+    errordlg('Please enter g, n, and k for decoding');
     return;
 end
 
-
-if isempty(g) || isnan(k) || isnan(n)
-    errordlg('Please enter g, n, and k for decoding');
+if size(g,1) ~= k || size(g,2) ~= n
+    errordlg('G matrix must be k × n');
     return;
 end
 
